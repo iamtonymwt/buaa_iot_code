@@ -20,6 +20,8 @@ THREAD_INIT(app_process, "aep Thread");
 
 // USER varibale
 bool temp_flag = false;
+static soft_timer_t  *temp_timer;
+static unsigned int  tempPeriod = 500;
 
 static BSP_status_t  BSP_status;
 
@@ -29,6 +31,7 @@ static bool          reportFlag = false;
 
 /******************************** functions ********************************/
 static void nb_timer_cb(void *args);
+static void temp_timer_cb(void *args);
 
 static void send_data_asy_callback(uint8_t result, uint32_t id)
 {
@@ -189,6 +192,18 @@ static void nb_timer_cb(void *args)
 	soft_timer_start(nb_timer, reportPeriod);
 }
 
+static void temp_timer_cb(void *args)
+{
+	if (temp_flag) {
+		temp_flag = false;
+	}
+	else {
+		temp_flag = true;
+	}
+	soft_timer_start(temp_timer, tempPeriod);
+}
+
+
 void decode_aep_data(char *data)
 {
 	int8_t ret;
@@ -289,13 +304,11 @@ void decode_aep_data(char *data)
 			if( value <= 1 )
 			{
 				if(value == 1) {
-					//setStatus(LED0_DEVICE_ID , LED_RED);
-					temp_flag = true;
+					soft_timer_start(temp_timer, tempPeriod);
 				}
 					
 					else {
-						temp_flag = false;
-						setStatus(LED1_DEVICE_ID , LED_OFF);
+						soft_timer_stop(temp_timer);
 					}
 					
 			}
@@ -326,6 +339,8 @@ void aep_thread_init(void)
 	
   soft_timer_register(&nb_timer, OS_PERIODIC_MODE, nb_timer_cb, NULL);
 	
+	soft_timer_register(&temp_timer, OS_PERIODIC_MODE, temp_timer_cb, NULL);
+	
 	nb_register_syn_ack(send_data_asy_callback);
 	
 	app_log("\r\nregister app thread.......[OK]\r\n");
@@ -352,10 +367,10 @@ PROCESS_THREAD(app_process, ev, pdata)
 	while(1)
 	{
 		if (temp_flag) {
-			setStatus(LED1_DEVICE_ID, LED_OFF);
-			THREAD_OS_DELAY(100);
 			setStatus(LED1_DEVICE_ID, LED_RED);
-			THREAD_OS_DELAY(100);
+		}
+		else {
+			setStatus(LED1_DEVICE_ID, LED_OFF);
 		}
 		
 		
@@ -364,7 +379,10 @@ PROCESS_THREAD(app_process, ev, pdata)
 		if( BSP_status.key_value == 0 )
 		{		
 				temp_flag = false;
+			///
+				soft_timer_stop(temp_timer);
 				setStatus(LED1_DEVICE_ID, LED_GREEN);
+			///
 			THREAD_OS_DELAY(30);
 			
 			getStatus(KEY2, &BSP_status);
