@@ -1,9 +1,9 @@
 .\out\tinylog.o: ..\RTOS\thread-os\log\TinyLog.c
-.\out\tinylog.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
-.\out\tinylog.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\string.h
-.\out\tinylog.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\out\tinylog.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-.\out\tinylog.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out\tinylog.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\tinylog.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\string.h
+.\out\tinylog.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\tinylog.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\tinylog.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\out\tinylog.o: ..\RTOS\thread-os\core\thread.h
 .\out\tinylog.o: ..\RTOS\thread-os\log\TinyLog.h
 .\out\tinylog.o: ..\RTOS\thread-os\config\os_config.h

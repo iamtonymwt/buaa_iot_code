@@ -1,6 +1,6 @@
 .\out\motor.o: ..\bsp\motor.c
 .\out\motor.o: ..\bsp\bsp.h
-.\out\motor.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\motor.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\out\motor.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 .\out\motor.o: ../system/Inc/stm32f1xx_hal_conf.h
 .\out\motor.o: ../system/Inc/main.h
@@ -14,7 +14,7 @@
 .\out\motor.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 .\out\motor.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
 .\out\motor.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
-.\out\motor.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\motor.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\out\motor.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 .\out\motor.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
 .\out\motor.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h

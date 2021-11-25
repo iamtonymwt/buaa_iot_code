@@ -1,10 +1,10 @@
 .\out\os_time.o: ..\RTOS\thread-os\core\os_time.c
-.\out\os_time.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\string.h
-.\out\os_time.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\os_time.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\string.h
+.\out\os_time.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\out\os_time.o: ..\RTOS\thread-os\core\thread.h
 .\out\os_time.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\os_time.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\out\os_time.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\os_time.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\os_time.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\os_time.o: ..\RTOS\thread-os\config\os_config.h
 .\out\os_time.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\os_time.o: ..\RTOS\thread-os\core\os_core.h

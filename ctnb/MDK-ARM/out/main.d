@@ -7,13 +7,13 @@
 .\out\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
 .\out\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
 .\out\main.o: ../Drivers/CMSIS/Include/core_cm3.h
-.\out\main.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\main.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\out\main.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 .\out\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 .\out\main.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 .\out\main.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
 .\out\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
-.\out\main.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\main.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\out\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 .\out\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
 .\out\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
@@ -29,7 +29,7 @@
 .\out\main.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 .\out\main.o: ..\RTOS\thread-os\core\thread.h
 .\out\main.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\main.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\main.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\main.o: ..\RTOS\thread-os\config\os_config.h
 .\out\main.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\main.o: ..\RTOS\thread-os\core\os_core.h

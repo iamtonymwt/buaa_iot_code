@@ -1,11 +1,11 @@
 .\out\flexshell_port.o: ..\RTOS\thread-os\FlexShell\FlexShell_port.c
-.\out\flexshell_port.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\string.h
-.\out\flexshell_port.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\out\flexshell_port.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\string.h
+.\out\flexshell_port.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdlib.h
 .\out\flexshell_port.o: ..\RTOS\thread-os\core\thread.h
 .\out\flexshell_port.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\flexshell_port.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\out\flexshell_port.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-.\out\flexshell_port.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\flexshell_port.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\flexshell_port.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\flexshell_port.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\flexshell_port.o: ..\RTOS\thread-os\config\os_config.h
 .\out\flexshell_port.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\flexshell_port.o: ..\RTOS\thread-os\core\os_core.h

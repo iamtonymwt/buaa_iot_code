@@ -1,8 +1,8 @@
 .\out\app_uart.o: ..\bsp\app_uart.c
-.\out\app_uart.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\string.h
-.\out\app_uart.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out\app_uart.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\string.h
+.\out\app_uart.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\out\app_uart.o: ..\bsp\app_uart.h
-.\out\app_uart.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\app_uart.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\out\app_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 .\out\app_uart.o: ../system/Inc/stm32f1xx_hal_conf.h
 .\out\app_uart.o: ../system/Inc/main.h
@@ -16,7 +16,7 @@
 .\out\app_uart.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 .\out\app_uart.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
 .\out\app_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
-.\out\app_uart.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\app_uart.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\out\app_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 .\out\app_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
 .\out\app_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
@@ -32,7 +32,7 @@
 .\out\app_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 .\out\app_uart.o: ..\RTOS\thread-os\core\os_soft_timer.h
 .\out\app_uart.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\app_uart.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\app_uart.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\app_uart.o: ..\RTOS\thread-os\config\os_config.h
 .\out\app_uart.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\app_uart.o: ..\RTOS\thread-os\core\os_fifo.h

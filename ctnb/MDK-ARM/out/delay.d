@@ -1,10 +1,10 @@
 .\out\delay.o: ..\bsp\delay.c
-.\out\delay.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\out\delay.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdbool.h
 .\out\delay.o: ..\RTOS\thread-os\core\thread.h
 .\out\delay.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\delay.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\out\delay.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-.\out\delay.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\delay.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\delay.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\delay.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\delay.o: ..\RTOS\thread-os\config\os_config.h
 .\out\delay.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\delay.o: ..\RTOS\thread-os\core\os_core.h

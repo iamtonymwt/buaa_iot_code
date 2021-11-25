@@ -4,7 +4,7 @@
 #include "thread.h"
 #include "TinyLog.h"
 #include "bsp.h"
-#include "app_aep_profile.h"
+//#include "app_aep_profile.h"
 
 
 /*************************************variable********************/
@@ -84,10 +84,18 @@ PROCESS_THREAD(bsp_process, ev, pdata)
 				os_log("Humidity:%d\r\n",hum);
 			}
 			//if (temp_flag == 1) {
-				setStatus(LED1_DEVICE_ID, LED_OFF);
-				THREAD_OS_DELAY(500);
-				setStatus(LED1_DEVICE_ID, LED_RED);
-				THREAD_OS_DELAY(500);
+			//	setStatus(LED1_DEVICE_ID, LED_OFF);
+				THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
+			//	setStatus(LED1_DEVICE_ID, LED_GREEN);
+				THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
+			THREAD_OS_DELAY(100);
 			//}
 	}
 		

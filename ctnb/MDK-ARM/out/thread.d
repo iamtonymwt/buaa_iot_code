@@ -1,10 +1,10 @@
 .\out\thread.o: ..\RTOS\thread-os\core\thread.c
-.\out\thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-.\out\thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\out\thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\string.h
 .\out\thread.o: ..\RTOS\thread-os\core\thread.h
 .\out\thread.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\out\thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\thread.o: ..\RTOS\thread-os\config\os_config.h
 .\out\thread.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\thread.o: ..\RTOS\thread-os\core\os_core.h

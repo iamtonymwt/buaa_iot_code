@@ -1,6 +1,6 @@
 .\out\hts221.o: ..\bsp\HTS221.c
 .\out\hts221.o: ..\bsp\HTS221.h
-.\out\hts221.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\hts221.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\out\hts221.o: ..\bsp\bsp.h
 .\out\hts221.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
 .\out\hts221.o: ../system/Inc/stm32f1xx_hal_conf.h
@@ -15,7 +15,7 @@
 .\out\hts221.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 .\out\hts221.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
 .\out\hts221.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
-.\out\hts221.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\hts221.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
 .\out\hts221.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
 .\out\hts221.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
 .\out\hts221.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
@@ -36,6 +36,6 @@
 .\out\hts221.o: ..\bsp\app_uart.h
 .\out\hts221.o: ..\bsp\log_uart.h
 .\out\hts221.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\hts221.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\hts221.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\hts221.o: ..\RTOS\thread-os\config\os_config.h
 .\out\hts221.o: ..\RTOS\TinyPrintf\TinyPrintf.h

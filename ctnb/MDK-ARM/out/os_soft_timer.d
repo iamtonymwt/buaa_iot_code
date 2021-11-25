@@ -1,10 +1,10 @@
 .\out\os_soft_timer.o: ..\RTOS\thread-os\core\os_soft_timer.c
-.\out\os_soft_timer.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\string.h
+.\out\os_soft_timer.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\string.h
 .\out\os_soft_timer.o: ..\RTOS\thread-os\core\thread.h
 .\out\os_soft_timer.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\os_soft_timer.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\out\os_soft_timer.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-.\out\os_soft_timer.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\os_soft_timer.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\os_soft_timer.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\os_soft_timer.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\os_soft_timer.o: ..\RTOS\thread-os\config\os_config.h
 .\out\os_soft_timer.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\os_soft_timer.o: ..\RTOS\thread-os\core\os_core.h

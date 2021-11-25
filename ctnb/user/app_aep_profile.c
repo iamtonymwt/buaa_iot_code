@@ -19,7 +19,7 @@
 THREAD_INIT(app_process, "aep Thread");
 
 // USER varibale
-int temp_flag = 0;
+bool temp_flag = false;
 
 static BSP_status_t  BSP_status;
 
@@ -289,13 +289,13 @@ void decode_aep_data(char *data)
 			if( value <= 1 )
 			{
 				if(value == 1) {
-					setStatus(LED0_DEVICE_ID , LED_RED);
-					temp_flag = 1;
+					//setStatus(LED0_DEVICE_ID , LED_RED);
+					temp_flag = true;
 				}
 					
 					else {
-						setStatus(LED0_DEVICE_ID , LED_OFF);
-						temp_flag = 0;
+						temp_flag = false;
+						setStatus(LED1_DEVICE_ID , LED_OFF);
 					}
 					
 			}
@@ -332,7 +332,7 @@ void aep_thread_init(void)
 }
 
 PROCESS_THREAD(app_process, ev, pdata)
-{
+{	
 	int8_t ret;
 	static uint8_t IR_status = true;
 	
@@ -351,10 +351,20 @@ PROCESS_THREAD(app_process, ev, pdata)
 				
 	while(1)
 	{
+		if (temp_flag) {
+			setStatus(LED1_DEVICE_ID, LED_OFF);
+			THREAD_OS_DELAY(100);
+			setStatus(LED1_DEVICE_ID, LED_RED);
+			THREAD_OS_DELAY(100);
+		}
+		
+		
 	#if 1
 		getStatus(KEY2, &BSP_status);
 		if( BSP_status.key_value == 0 )
-		{			
+		{		
+				temp_flag = false;
+				setStatus(LED1_DEVICE_ID, LED_GREEN);
 			THREAD_OS_DELAY(30);
 			
 			getStatus(KEY2, &BSP_status);

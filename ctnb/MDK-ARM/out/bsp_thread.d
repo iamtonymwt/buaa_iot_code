@@ -1,10 +1,10 @@
 .\out\bsp_thread.o: ..\user\bsp_thread.c
-.\out\bsp_thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\string.h
-.\out\bsp_thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\out\bsp_thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\string.h
+.\out\bsp_thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdint.h
 .\out\bsp_thread.o: ..\RTOS\thread-os\core\thread.h
 .\out\bsp_thread.o: ..\RTOS\thread-os\log\TinyLog.h
-.\out\bsp_thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-.\out\bsp_thread.o: E:\学习\大三\物联网\keil5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\out\bsp_thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdio.h
+.\out\bsp_thread.o: D:\study_sws\keil\ARM\ARMCC\Bin\..\include\stdarg.h
 .\out\bsp_thread.o: ..\RTOS\thread-os\config\os_config.h
 .\out\bsp_thread.o: ..\RTOS\TinyPrintf\TinyPrintf.h
 .\out\bsp_thread.o: ..\RTOS\thread-os\core\os_core.h
@@ -50,4 +50,3 @@
 .\out\bsp_thread.o: ..\bsp\app_uart.h
 .\out\bsp_thread.o: ..\bsp\log_uart.h
 .\out\bsp_thread.o: ..\bsp\HTS221.h
-.\out\bsp_thread.o: ..\user\app_aep_profile.h

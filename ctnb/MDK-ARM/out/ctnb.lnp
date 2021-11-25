@@ -51,6 +51,6 @@
 ".\out\system_stm32f1xx.o"
 ".\out\startup_stm32f103xb.o"
 --library_type=microlib --strict --scatter ".\out\ctnb.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "ctnb.map" -o .\out\ctnb.axf
