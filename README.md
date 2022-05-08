@@ -1,10 +1,18 @@
 # BUAA IOT 
 
-2021物联网大作业
+This is the course project for BUAA IoT course 2021
+
+The system is named **Fire Warning System**
+
+​	when the tensor_end on chip 'feels' the temperature & humidity are going wrong, it will send its infos to server_end and the server_end will tell the chips to Alarm (flicker, vibration).
+
+​	people could also use the website to adjust the threshold value and check the history infos saved in database
+
+Structure:
 
 
-* 传感器端代码 是板子的最终代码
-* 服务端代码 是Django服务器的最终代码
-* 前端代码 是vue的客户端代码
-* 报告
+* Sensor_end is the code on chips
+* Server_end is the code for server in django
+* Front_end is the code for website
+* Report in chinese
 
